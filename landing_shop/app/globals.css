@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply text-gray-900;
+    @apply font-sans;
+    @apply leading-normal;
+    @apply tracking-normal;
+    @apply text-base;
+    @apply max-w-[1470px];
+    @apply mx-auto;
+    font-family: "Roboto", sans-serif;
+    background: #fffbeb;
+
+
+}
+
+.navigation-list:nth-child(6) {
+    @apply border-[#78350F];
+    @apply p-3 rounded-[8px] border-2;
+}
+
+.menu {
+    @apply fixed top-0 right-0 w-full h-full transform -translate-y-1/2 bg-gradient-to-r from-[#fffbeb] to-[#ffffff] bg-[length:100%_89.63%] py-10 px-5 shadow-lg;
+}
+
+.menu-item {
+    @apply block text-[#78350f] no-underline mb-2.5;
+}
+
+.mobile-navigation:nth-child(1) {
+    transition: 0.5s;
+}
+.mobile-navigation:nth-child(2) {
+    transition: 0.6s;
+}
+.mobile-navigation:nth-child(3) {
+    transition: 0.7s;
+}
+.mobile-navigation:nth-child(4) {
+    transition: 0.8s;
+}
+.mobile-navigation:nth-child(5) {
+    transition: 0.9s;
+}
+.mobile-navigation:nth-child(6) {
+    transition: 0.11s;
+}
+
+footer {
+    @apply bg-[#0f172a] text-white;
+}

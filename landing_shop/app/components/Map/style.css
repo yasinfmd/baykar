@@ -1,0 +1,7 @@
+.triangle-bottom {
+  @apply relative;
+}
+
+.triangle-bottom::before {
+  @apply content-[''] absolute bottom-[-10px] left-1/2 transform translate-x-[-50%] border-t-[10px] border-t-[#E2E8F0] border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent;
+}

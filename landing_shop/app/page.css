@@ -1,0 +1,51 @@
+@media (min-width: 1024px) {
+    .lg\:clip-triangle {
+        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+        background: rgba(254, 243, 199, 1);
+        height: 900px;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+    }
+    .lg\:sneakers img {
+        position: relative;
+        width: 486px;
+        transform: scale(1.7) !important;
+        height: 388px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sm\:clip-circle {
+        clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+        background: rgba(254, 243, 199, 1);
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        height: 1000px !important;
+    }
+    .md\:sneakers img {
+        position: relative;
+        width: 486px;
+        transform: scale(2);
+        height: 388px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sm\:clip-circle {
+        clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+        background: rgba(254, 243, 199, 1);
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        height: 1000px !important;
+    }
+    .sm\:sneakers img {
+        position: relative;
+        width: 486px;
+        transform: scale(1.6);
+        height: 388px;
+    }
+}
+

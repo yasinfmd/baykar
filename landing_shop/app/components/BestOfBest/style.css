@@ -1,0 +1,38 @@
+.shadow-box {
+  @apply shadow-[0px_25px_50px_-12px_rgba(255,_255,_255,_0.25)] bg-[#0f172a] z-10;
+}
+
+@media (min-width: 1024px) {
+  .lg\:shape-1 {
+    @apply w-[271px] h-[271px] top-[176px] left-[-35px] right-[10px] rounded-[50%] opacity-[0.75] bg-[#be185d];
+  }
+  .lg\:shape-2 {
+    @apply absolute w-[161px] h-[161px] top-[-31px] left-[434px] rounded-[50%] opacity-[0.75] bg-[#0369a1];
+  }
+
+  .lg\:shape-3 {
+    @apply absolute w-[130px] h-[130px] top-[294px] left-[740px] rounded-[30px] opacity-[0.75] bg-[#b45309];
+  }
+  .lg\:shape-4 {
+    @apply absolute w-[202px] h-[202px] top-[294px] left-[982px] gap-0 rounded-[30px] opacity-[0.75] bg-[#a21caf];
+  }
+  .lg\:shape-5 {
+    @apply absolute w-[232px] h-[232px] top-[33px] left-[1091px] rounded-[50%] opacity-[0.75] bg-[#15641d];
+  }
+}
+
+@media (max-width: 900px) {
+  .sm\:shape-1 {
+    @apply w-[202px] h-[202px] top-[296px] left-[11px] gap-0 rounded-[50%] opacity-[0.75] bg-[#be185d];
+  }
+  .sm\:shape-2 {
+    @apply absolute w-[120px] h-[120px] top-[650px] left-[290px] rounded-[50%] opacity-[0.75] bg-[#0369a1];
+  }
+
+  .sm\:shape-3 {
+    @apply absolute w-0 h-0 top-0 left-0 rounded-[30px] opacity-[0.75];
+  }
+  .sm\:shape-4 {
+    @apply absolute w-[150px] h-[150px] top-[1100px] left-0 gap-0 rounded-[30px] opacity-[0.75] bg-[#a21caf];
+  }
+}

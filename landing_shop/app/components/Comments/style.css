@@ -1,0 +1,16 @@
+.slider-bg {
+  @apply bg-[#fde68a] h-[421px];
+}
+
+.comments-box {
+  @apply w-[384px] h-[430px] rounded-[20px] z-[40] shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1)];
+}
+
+@media screen and (max-width: 600px) {
+  .comments-box {
+    @apply w-[319px] h-[296px];
+  }
+  .slider-bg {
+    @apply bg-[#fde68a] h-[277px];
+  }
+}
