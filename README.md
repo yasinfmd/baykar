@@ -1,0 +1,2 @@
+- **Quiz**: [https://baykar-9mm7.vercel.app/](https://baykar-9mm7.vercel.app/)
+- **Landing**: [https://baykar-six.vercel.app/](https://baykar-six.vercel.app/)
